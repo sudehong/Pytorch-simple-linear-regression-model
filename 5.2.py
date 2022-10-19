@@ -14,7 +14,7 @@ noccs = []
 emos = []
 hamats =[]
 no = []
-with open('C:\\Users\\SU DEHONG\\Desktop\\study\\JMedChem.34.786-smiles.txt','rt') as f1:
+with open('JMedChem.34.786-smiles.txt','rt') as f1:
   for l1 in f1.readlines():
     l2 = l1.split()
     smi = l2[2]
